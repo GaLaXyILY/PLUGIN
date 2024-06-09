@@ -6,7 +6,7 @@ on:
     paths:
       - '.github/workflows/UltimateShop.yml'
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 */3 * *'
 
 jobs:
   ultimateshop:
