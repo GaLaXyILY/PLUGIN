@@ -12,7 +12,7 @@ jobs:
   tooltips:
     uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
     with:
-      repository: "Septicuss/tooltips"
+      repository: "GaLaXyILY/tooltips"
       name: "tooltips"
       java: 21
       tasks: "clean package -DskipTests"
