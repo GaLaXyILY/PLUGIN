@@ -1,0 +1,18 @@
+name: UltimateShop
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/UltimateShop.yml'
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  ultimateshop:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
+    with:
+      repository: "PQguanfang/UltimateShop"
+      name: "UltimateShop"
+      java: 21
+      tasks: "clean package -DskipTests"
