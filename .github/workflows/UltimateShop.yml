@@ -12,7 +12,7 @@ jobs:
   ultimateshop:
     uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
     with:
-      repository: "PQguanfang/UltimateShop"
+      repository: "GaLaXyILY/UltimateShop"
       name: "UltimateShop"
       java: 21
       tasks: "clean package -DskipTests"
