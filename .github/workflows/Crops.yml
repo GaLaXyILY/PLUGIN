@@ -14,5 +14,5 @@ jobs:
     with:
       repository: "Xiao-MoMi/Custom-Crops"
       name: "CustomCrops"
-      java: "17"
+      java: "21"
       target: "target/CustomCrops-*.jar"
