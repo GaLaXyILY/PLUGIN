@@ -9,7 +9,7 @@ on:
     - cron: '0 0 * * *'
     
 jobs:
-  ZNPCsPlus:
+  CustomCrops:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
       repository: "Xiao-MoMi/Custom-Crops"
