@@ -12,7 +12,7 @@ jobs:
   oraxen:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
-      repository: "oraxen/oraxen"
+      repository: "GaLaXyILY/oraxen"
       name: "oraxen"
       java: "17"
       target: "plugin/build/libs/*.jar"
