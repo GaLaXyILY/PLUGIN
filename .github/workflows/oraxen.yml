@@ -1,0 +1,18 @@
+name: Oraxen
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/oraxen.yml'
+  schedule:
+    - cron: '0 0 * * *'
+    
+jobs:
+  oraxen:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "oraxen/oraxen"
+      name: "oraxen"
+      java: "17"
+      target: "plugin/build/libs/*.jar"
