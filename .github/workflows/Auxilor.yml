@@ -33,12 +33,12 @@ jobs:
       name: "EcoCrates"
       java: 17
       readonly: true
-  EcoBosses:
+  EcoMobs:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
-      repository: "Auxilor/EcoBosses"
+      repository: "Auxilor/EcoMobs"
       target: "bin/*"
-      name: "EcoBosses"
+      name: "EcoMobs"
       java: 17
       readonly: true
   EcoEnchants:
@@ -63,14 +63,6 @@ jobs:
       repository: "Auxilor/Reforges"
       target: "bin/*"
       name: "Reforges"
-      java: 17
-      readonly: true
-  EcoWeapons:
-    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
-    with:
-      repository: "Auxilor/EcoWeapons"
-      target: "bin/*"
-      name: "EcoWeapons"
       java: 17
       readonly: true
   Talismans:
@@ -121,11 +113,35 @@ jobs:
       name: "Actions"
       java: 17
       readonly: true
+  EcoQuests:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "Auxilor/EcoQuests"
+      target: "bin/*"
+      name: "EcoQuests"
+      java: 17
+      readonly: true
+  EcoScrolls:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "Auxilor/EcoScrolls"
+      target: "bin/*"
+      name: "EcoScrolls"
+      java: 17
+      readonly: true
   EcoShop:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoShop"
       target: "bin/*"
       name: "EcoShop"
+      java: 17
+      readonly: true
+  EcoBits:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "Auxilor/EcoBits"
+      target: "bin/*"
+      name: "EcoBits"
       java: 17
       readonly: true
