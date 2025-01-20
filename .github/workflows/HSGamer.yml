@@ -1,0 +1,17 @@
+name: HSGamer
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/HSGamer.yml'
+  schedule:
+    - cron: '0 0 */3 * *'
+    
+jobs:
+  BetterForms:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "BetterGUI-MC/BetterForms"
+      name: "BetterForms"
+      java: 17
