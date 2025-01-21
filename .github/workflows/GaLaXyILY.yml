@@ -1,0 +1,19 @@
+name: GaLaXyILY
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/GaLaXyILY.yml'
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  EcoEnchants:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "GaLaXyILY/EcoEnchants"
+      target: "bin/*"
+      name: "EcoEnchants"
+      java: 17
+      readonly: true
