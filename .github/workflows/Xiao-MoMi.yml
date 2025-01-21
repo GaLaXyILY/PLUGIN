@@ -16,3 +16,11 @@ jobs:
       name: "CustomCrops"
       java: "21"
       target: "target/CustomCrops-*.jar"
+      
+  CustomFishing:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "Xiao-MoMi/Custom-Fishing"
+      name: "CustomFishing"
+      java: "21"
+      target: "target/CustomFishing-*.jar"
