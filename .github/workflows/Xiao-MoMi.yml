@@ -1,10 +1,10 @@
-name: Crops
+name: Xiao-MoMi
 
 on:
   push:
     branches: [ main ]
     paths:
-      - '.github/workflows/Crops.yml'
+      - '.github/workflows/Xiao-MoMi.yml'
   schedule:
     - cron: '0 0 * * *'
     
