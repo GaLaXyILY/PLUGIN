@@ -1,10 +1,10 @@
-name: MythicTotem
+name: PQguanfang
 
 on:
   push:
     branches: [ main ]
     paths:
-      - '.github/workflows/MythicTotem.yml'
+      - '.github/workflows/PQguanfang.yml'
   schedule:
     - cron: '0 0 * * *'
 
