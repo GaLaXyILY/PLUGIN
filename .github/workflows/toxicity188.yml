@@ -15,4 +15,3 @@ jobs:
       repository: "toxicity188/BetterHealthBar3"
       name: "BetterHealthBar3"
       java: 17
-      target: "target/*"
