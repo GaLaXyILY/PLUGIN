@@ -1,6 +1,6 @@
 # Hi
 A small repo to build projects with Github Actions
-
+Thanks Hsgamer
 ## How to use
 1. Go to [Actions](https://github.com/GaLaXyILY/PLUGIN/actions)
 2. On `Workflows`, Choose an author
