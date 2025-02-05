@@ -1,0 +1,17 @@
+name: rsp
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/rsp.yml'
+  schedule:
+    - cron: '0 0 */3 * *'
+    
+jobs:
+  BetterForms:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
+    with:
+      repository: "xenondevs/resource-pack-obfuscator"
+      name: "obfuscator"
+      java: 17
