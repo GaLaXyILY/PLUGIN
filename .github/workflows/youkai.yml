@@ -1,0 +1,17 @@
+name: youkai
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/youkai.yml'
+  schedule:
+    - cron: '0 0 */3 * *'
+    
+jobs:
+  Youkai:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "LukynkaCZE/Youkai"
+      name: "Youkai"
+      java: 21
