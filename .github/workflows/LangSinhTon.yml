@@ -15,3 +15,4 @@ jobs:
       repository: "GaLaXyILY/Iaupload"
       name: "LangSinhTon"
       java: 21
+      tasks: "clean package -DskipTests"
