@@ -1,0 +1,17 @@
+name: LangSinhTon
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/LangSinhTon.yml'
+  schedule:
+    - cron: '0 0 */3 * *'
+    
+jobs:
+  LangSinhTon:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
+    with:
+      repository: "GaLaXyILY/Iaupload"
+      name: "LangSinhTon"
+      java: 17
