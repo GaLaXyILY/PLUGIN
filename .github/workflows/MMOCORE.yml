@@ -1,0 +1,18 @@
+name: MMOCORE
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/MMOCORE.yml'
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  MythicTotem:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
+    with:
+      repository: "GaLaXyILY/MMOCORE"
+      name: "MMOCORE"
+      java: 17
+      tasks: "clean package -DskipTests"
