@@ -22,4 +22,11 @@ jobs:
       repository: "toxicity188/BetterModel"
       name: "BetterModel"
       java: 17
+      
+  BetterDamage:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "toxicity188/BetterDamage"
+      name: "BetterDamage"
+      java: 21
 
