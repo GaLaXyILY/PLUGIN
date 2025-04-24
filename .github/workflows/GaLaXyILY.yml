@@ -9,7 +9,7 @@ on:
     - cron: '0 */6 * * *'
 
 jobs:
-  HotkeyEvent:
+  HotkeyEvente:
     uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
     with:
       repository: "GaLaXyILY/HotkeyEvent"
