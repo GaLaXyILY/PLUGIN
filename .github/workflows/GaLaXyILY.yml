@@ -10,10 +10,9 @@ on:
 
 jobs:
   EcoEnchants:
-    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
     with:
-      repository: "GaLaXyILY/EcoEnchants"
-      target: "bin/*"
-      name: "EcoEnchants"
-      java: 17
-      readonly: true
+      repository: "GaLaXyILY/HotkeyEvent"
+      name: "HotkeyEvent"
+      java: 21
+      tasks: "clean package -DskipTests"
