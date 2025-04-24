@@ -9,10 +9,9 @@ on:
     - cron: '0 */6 * * *'
 
 jobs:
-  EcoEnchants:
+  HotkeyEvent:
     uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
     with:
       repository: "GaLaXyILY/HotkeyEvent"
       name: "HotkeyEvent"
       java: 21
-      tasks: "clean package -DskipTests"
