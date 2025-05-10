@@ -1,0 +1,18 @@
+name: FastLogin
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/FastLogin.yml'
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  FastLogin:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
+    with:
+      repository: "TuxCoding/FastLogin"
+      name: "FastLogin"
+      java: 21
+      tasks: "mvn test --batch-mode --threads 2.0C --no-snapshot-updates --strict-checksums --file pom.xml"
