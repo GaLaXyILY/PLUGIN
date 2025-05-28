@@ -24,3 +24,11 @@ jobs:
       name: "CustomFishing"
       java: "21"
       target: "target/CustomFishing-*.jar"
+
+  Custom-Nameplates:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "Xiao-MoMi/Custom-Nameplates"
+      name: "Custom-Nameplates"
+      java: "21"
+      target: "target/Custom-Nameplates-*.jar"
