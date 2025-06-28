@@ -9,9 +9,9 @@ on:
     - cron: '0 */6 * * *'
 
 jobs:
-  HotkeyEvente:
+  NoDamageParticle:
     uses: GaLaXyILY/PLUGIN/.github/workflows/maven-build.yml@main
     with:
       repository: "GaLaXyILY/HotkeyEvent"
-      name: "HotkeyEvent"
+      name: "NoDamageParticle"
       java: 21
