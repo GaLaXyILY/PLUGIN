@@ -1,10 +1,10 @@
-name: Maxlego08
+name: TerraTrees
 
 on:
   push:
     branches: [ main ]
     paths:
-      - '.github/workflows/Maxlego08.yml'
+      - '.github/workflows/TerraTrees.yml'
   schedule:
     - cron: '0 */12 * * *'
 
@@ -12,7 +12,6 @@ jobs:
   zEssentials:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
-      repository: "Maxlego08/zEssentials"
-      name: "zEssentials"
-      java: 17
-      target: "target/*"
+      repository: "RabbitTV22/TerraTrees"
+      name: "TerraTrees"
+      java: 21
