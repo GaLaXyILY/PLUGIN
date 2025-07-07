@@ -21,3 +21,9 @@ jobs:
       repository: "HibiscusMC/HMCCosmetics"
       name: "HMCCosmetics"
       java: 21
+  HibiscusCommons:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "HibiscusMC/HibiscusCommons"
+      name: "HibiscusCommons"
+      java: 21
