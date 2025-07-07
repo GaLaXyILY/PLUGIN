@@ -9,9 +9,15 @@ on:
     - cron: '0 */12 * * *'
 
 jobs:
-  zEssentials:
+  TerraTrees:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
       repository: "RabbitTV22/TerraTrees"
       name: "TerraTrees"
+      java: 21
+  HMCCosmetics:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "HibiscusMC/HMCCosmetics"
+      name: "HMCCosmetics"
       java: 21
