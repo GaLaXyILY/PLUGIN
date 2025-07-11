@@ -9,6 +9,12 @@ on:
     - cron: '0 */12 * * *'
 
 jobs:
+  adyeshach:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "TabooLib/adyeshach"
+      name: "adyeshach"
+      java: 21
   TerraTrees:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
