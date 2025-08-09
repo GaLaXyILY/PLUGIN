@@ -33,3 +33,9 @@ jobs:
       repository: "HibiscusMC/HibiscusCommons"
       name: "HibiscusCommons"
       java: 21
+  HuskClaims:
+    uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
+    with:
+      repository: "WiIIiam278/HuskClaims"
+      name: "HuskClaims"
+      java: 21
