@@ -39,4 +39,4 @@ jobs:
       repository: "WiIIiam278/HuskClaims"
       name: "HuskClaims"
       java: 21
-      target: "plugin/*"
+      target: "target/*"
