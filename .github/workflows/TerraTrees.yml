@@ -39,5 +39,4 @@ jobs:
       repository: "WiIIiam278/HuskClaims"
       name: "HuskClaims"
       java: 21
-      tasks: "gradlew clean build"
       target: "plugin/*"
