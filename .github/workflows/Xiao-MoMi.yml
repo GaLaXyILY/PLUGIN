@@ -12,7 +12,7 @@ jobs:
   CustomCrops:
     uses: GaLaXyILY/PLUGIN/.github/workflows/gradle-build.yml@main
     with:
-      repository: "Xiao-MoMi/Custom-Crops"
+      repository: "GaLaXyILY/Custom-Crops"
       name: "CustomCrops"
       java: "21"
       target: "target/CustomCrops-*.jar"
